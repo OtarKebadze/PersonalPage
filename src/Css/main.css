@@ -4,7 +4,20 @@
 @import url('./footer.css');
 
 
-
+/* COMPUTER ( 768 - more */
 body{
     background-color: red;
 }
+/* MOBILE (0-480 px) */
+    @media all and (max-width: 480px) { 
+        body{
+            background-color: blue
+        };
+    }
+
+ /* TABLET (768-480 px) */
+ @media all and (min-width: 480px) and (max-width: 768px) {
+    body{
+        background-color: yellow;
+    }
+  }
