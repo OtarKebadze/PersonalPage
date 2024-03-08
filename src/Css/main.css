@@ -1,0 +1,10 @@
+@import url('./nav.css');
+@import url('./body.css');
+@import url('./form.css');
+@import url('./footer.css');
+
+
+
+body{
+    background-color: red;
+}
